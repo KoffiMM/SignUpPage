@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="semantic/dist/semantic.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+  </head>
+  <body>
+    <div class="ui center aligned grid">
+      <div class="ui segment">
+        <div class="six wide column">
+          <div class="field">
+            <img
+              src="https://images.unsplash.com/photo-1640622661487-b78d06f91d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt="Flowers in Chania"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="six wide column">
+        <h1 class="ui header">Welcome to Design Class 101! Sign Up Today!</h1>
+        <h1 class="ui header">Sign Up Today!</h1>
+        <form class="ui form">
+          <h4 class="ui dividing header">Sign Up</h4>
+          <div class="field">
+            <label>Name</label>
+            <div class="two fields">
+              <div class="field">
+                <input
+                  type="text"
+                  name="shipping[first-name]"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  name="shipping[last-name]"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Contact Information</label>
+            <div class="two fields">
+              <div class="field">
+                <input type="email" name="email[email]" placeholder="Email" />
+              </div>
+              <div class="field">
+                <input
+                  type="number"
+                  name="phone[phone]"
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+          </div>
+          <h4 class="ui dividing header">Password</h4>
+          <div class="two fields">
+            <div class="field">
+              <input
+                type="password"
+                name="password[password]"
+                placeholder="Password"
+              />
+            </div>
+            <div class="field">
+              <input
+                type="number"
+                name="cpassword[cpassword]"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+
+          <div class="ui button" tabindex="0">Create Account</div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
