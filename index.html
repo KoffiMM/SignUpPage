@@ -32,9 +32,9 @@
         </div>
       </div>
 
-      <div class="six wide column">
-        <h1 class="ui header">Welcome to Design Class 101! Sign Up Today!</h1>
-        <h1 class="ui header">Sign Up Today!</h1>
+      <div id="form-info" class="eight wide column">
+        <h1 class="ui header">Welcome to Design Class 101!!</h1>
+
         <form class="ui form">
           <h4 class="ui dividing header">Sign Up</h4>
           <div class="field">
@@ -45,6 +45,7 @@
                   type="text"
                   name="shipping[first-name]"
                   placeholder="First Name"
+                  required
                 />
               </div>
               <div class="field">
@@ -52,6 +53,7 @@
                   type="text"
                   name="shipping[last-name]"
                   placeholder="Last Name"
+                  required
                 />
               </div>
             </div>
@@ -71,25 +73,29 @@
               </div>
             </div>
           </div>
-          <h4 class="ui dividing header">Password</h4>
-          <div class="two fields">
-            <div class="field">
-              <input
-                type="password"
-                name="password[password]"
-                placeholder="Password"
-              />
-            </div>
-            <div class="field">
-              <input
-                type="number"
-                name="cpassword[cpassword]"
-                placeholder="Confirm Password"
-              />
+          <div class="field">
+            <label>Password</label>
+            <div class="two fields">
+              <div class="field">
+                <input
+                  type="password"
+                  name="password[password]"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  name="cpassword[cpassword]"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
             </div>
           </div>
-
           <div class="ui button" tabindex="0">Create Account</div>
+          <p>Already have an account? <a href="url">Log In</a></p>
         </form>
       </div>
     </div>

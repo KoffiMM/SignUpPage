@@ -2,7 +2,21 @@
   padding-top: 50px;
 }
 body {
-  background-color: lightgrey;
+  background-color: purple;
 }
 .ui.button {
+  background-color: #596d48;
+  color: white;
+  margin-top: 50px;
+}
+img {
+  height: 765px;
+}
+#form-info {
+  background-color: white;
+  height: 800px;
+  margin-left: 10px;
+}
+.ui.form {
+  margin-top: 100px;
 }
